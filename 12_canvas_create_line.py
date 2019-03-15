@@ -1,6 +1,8 @@
 from tkinter import *
 
 root=Tk()
+
+#create canvas with height 250 and width 250
 canvas=Canvas(root,width=250,height=250,bg='yellow')
 canvas.pack()
 red_line=canvas.create_line(250,0,0,100,fill='red')
